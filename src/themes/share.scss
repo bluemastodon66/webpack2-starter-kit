@@ -1,0 +1,61 @@
+body {
+    font-family: '微軟正黑體', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hide {
+    display: none;
+}
+
+.q-toast-container {
+    display: block;
+    text-align: center;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.form-label {
+    transform: scale(0.8);
+    display: block;
+    transform-origin: left top;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: lighter;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .sm-block {
+        display: block;
+    }
+    .q-pagination {
+        text-align: center;
+    }
+    .q-pagination input {
+        font-size: 22px;
+    }
+    .q-pagination button.small i {
+        font-size: 28px;
+    }
+}
